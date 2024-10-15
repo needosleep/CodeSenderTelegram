@@ -87,13 +87,49 @@ You can find the commands for the extension in the command palette (press `Ctrl+
 
 - **Commit:** 0e214d4e186f84f89a870a0a7081dc9f79ecac37  
 - **Message:** README file was updated: examples of launching were added  
-- **Changes:** Examples of launching were included in the README file.
+- **Changes:** Examples of launching were included in the README.md file.
 
 ### October 15, 2024, 17:11:16 +0300
 
 - **Commit:** 6eac8305f1faf5c8c17c4fceb1e00f5d43f03e33  
 - **Message:** extension.js was updated: some comments were added  
 - **Changes:** Helpful comments were incorporated into `extension.js`.
+
+### October 15, 2024, 20:52:48 +0300
+
+- **Commit:** 835e1d71c540165fd743cb463dd71f5090c1e22d  
+- **Message:** README file was formatted and images were added into the special folder  
+- **Changes:** Good formatting was added into the README.md file.
+
+### October 15, 2024, 20:57:47 +0300
+
+- **Commit:** 3e16ead5af342c2009a100a8be4754acefb271d3  
+- **Message:** little changes
+- **Changes:** Some useful resources were added.
+
+### October 15, 2024, 21:16:09 +0300
+
+- **Commit:** de1de6038f558aa02c07cee69ad32235618e8a9d  
+- **Message:** LICENSE was added
+- **Changes:** The file `LICENSE.txt` was added with MIT License.
+
+### October 15, 2024, 21:22:43 +0300
+
+- **Commit:** 224cfa6e547ff3c62392ebbd95416a72f41a7fe1  
+- **Message:** Merge branch 'main' into separated
+- **Changes:** The branches 'main' and 'separated' were merged: separated functions in 'separated' branch were duplicated into 'main' branch.
+
+### October 15, 2024, 22:21:26 +0300
+
+- **Commit:** ab40575d862fc7608b74476f26e355c793423172
+- **Message:** extra resources were removed
+- **Changes:** deleted some things in `package.json` and changed some things in README file.
+
+### October 15, 2024, 22:48:25 +0300
+
+- **Commit:** dd0bfb1ddf9434ac60745fc91108f11641b37700  
+- **Message:** gitignore file was added
+- **Changes:** The `.gitignore` file was added into the main folder.
 
 ## LICENSE
 
