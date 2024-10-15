@@ -35,31 +35,31 @@ You can find the commands for the extension in the command palette (press `Ctrl+
 
 1. Let's suppose we want to send a code snippet of insertion sort. We need to select the code as shown below:
 
-   ![alt text](images/image-1.png)
+   ![](images/image-1.png)
 
    After this, the following input window will appear; let's enter a valid Chat ID:
 
-   ![alt text](images/image-2.png)
+   ![](images/image-2.png)
 
    The result will be displayed at the bottom right of the current VSCode window:
 
-   ![alt text](images/image-3.png)
+   ![](images/image-3.png)
 
 2. Now, let's suppose we want to reset the Chat ID:
 
-   ![alt text](images/image-4.png)
+   ![](images/image-4.png)
 
    The result will be:
 
-   ![alt text](images/image-5.png)
+   ![](images/image-5.png)
 
    Let's enter a random string of symbols:
 
-   ![alt text](images/image-6.png)
+   ![](images/image-6.png)
 
    The result will be:
 
-   ![alt text](images/image-7.png)
+   ![](images/image-7.png)
 
    We see that after receiving the error, the `chat_id` was not set but was successfully reset.
 
@@ -94,3 +94,7 @@ You can find the commands for the extension in the command palette (press `Ctrl+
 - **Commit:** 6eac8305f1faf5c8c17c4fceb1e00f5d43f03e33  
 - **Message:** extension.js was updated: some comments were added  
 - **Changes:** Helpful comments were incorporated into `extension.js`.
+
+## LICENSE
+
+This extension is provided with the MIT licence, you can see it in the repository.
