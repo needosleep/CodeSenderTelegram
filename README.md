@@ -33,6 +33,35 @@ enter VSCode, press Ctrl+P, and paste the command: `ext install needosleep.codes
 
 ### Examples
 
+1. Let's suppose that we want to send a code snippet of insertion sort. We need to select the code the next way:
+
+    ![alt text](image-1.png)
+
+    After that we will get the next input window, let's enter some chat ID:
+
+    ![alt text](image-2.png)
+
+    The result will be showed at the right bottom of the current window of VSCode:
+
+    ![alt text](image-3.png)
+
+2. Let's suppose that we want to reset Chat ID:
+
+    ![alt text](image-4.png)
+
+    The result will be:
+
+    ![alt text](image-5.png)
+
+    Let's enter a random string of symbols:
+
+    ![alt text](image-6.png)
+
+    The result will be:
+
+    ![alt text](image-7.png)
+
+    We see that after getting the error chat_id wasn't set and but was reset.
 
 
 
