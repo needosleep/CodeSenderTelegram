@@ -1,8 +1,8 @@
 const vscode = require('vscode');
 const axios = require('axios');
 
-let chatId = '';
-const botToken = '8072757536:AAE4gyb8RMGC1fhuwwKBV_a8cMkgGXN86jQ';
+let chatId = ''; // chat_id of user in telegram
+const botToken = '8072757536:AAE4gyb8RMGC1fhuwwKBV_a8cMkgGXN86jQ'; // token of CodeSender bot in Telegram 
 
 async function setChatId(context) {
     while (true) {
@@ -26,7 +26,7 @@ async function setChatId(context) {
     }
 }
 
-async function sendToTelegram() {
+async function sendToTelegram() { // send code after selection
     const userSettings = vscode.workspace.getConfiguration('codesendertelegram');
     chatId = userSettings.get('chatId');
 
@@ -67,7 +67,7 @@ async function resetChatId() {
     vscode.window.showInformationMessage('chat_id has been reset');
 }
 
-async function activate(context) {
+async function activate(context) { // the main part of code
     let setChatIdCommand = vscode.commands.registerCommand('extension.setChatId', () => setChatId(context));
     let sendToTelegramCommand = vscode.commands.registerCommand('extension.sendToTelegram', sendToTelegram);
     let resetChatIdCommand = vscode.commands.registerCommand('extension.resetChatId', resetChatId);
